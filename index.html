@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="du">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCl7F3URup7S4Of3R3cJQLk535vNnUQRzg&callback=initMap">
+        </script>
+        <title>ElectroHub | World's Best Market</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                       
+                    </div>
+                    <nav>
+                        <ul id="menu-items">
+                            <li><a href="">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="register.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/cart.png" alt="cart" width="30px" height="30px" class="cart-img">
+                    <img src="images/menu.png" alt="menu" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+                </div>
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <h1 class="text-white">FARM FRESH </h1>
+                        <p>ORGANIC LIVING FOR A HEALTHIER YOU</p>
+                        <p>Shop stress-free from home. We’re ready to help, online.</p>
+                        <a href="" class="btn btn-main">Explore Now &#8594;</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/" alt="banner-image" class="center">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- featured products -->
+        <div class="small-container mt-5">
+            
+            <div class="row horizontal-scroll-wrapper squares">
+                <div class="col-4 box-container">
+                    <div class="image-overlay"></div>
+                    <img src="images/kales.webp" alt="Kales">
+                    <h5 class="product_name">Kales</h5>
+                   
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Kale</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" ></p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/curly kale.jpg" alt="curly kale">
+                    <h5 class="product_name"></h5>
+
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">curly kale</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+        
+                    <p class="price_name" >Add to cart</p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/babyspinach.jpg" alt="babyspinach">
+                    <h5 class="product_name">Babyspinach</h5>
+
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Babyspinach</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" >Add to cart</p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/broccoli.jpg" alt="keyboard">
+                    <h5 class="product_name">broccoli</h5>
+
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">broccoli</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" >Add to cart</p>
+                </div>
+            </div>
+
+           
+            <div class="row">
+                <div class="col-4 box-container">
+                    <img src="images/cauliflower.jpg" alt="Gaming Laptop">
+                    <h5 class="product_name">Cauliflower</h5>
+                    
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">cauliflower</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" >Add to cart</p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/celery.jpg" alt="Camera">
+                    <h5 class="product_name">Celery</h5>
+
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">celery</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" >Add to cart</p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/cabbage.jpg" alt="Iphone SE">
+                    <h5 class="product_name">Cabbage</h5>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">cabbage</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" >Add to cart</p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/french beans.jpg" alt="Tablet Pc">
+                    <h5 class="product_name">French beans</h5>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">French beans</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" ></p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/purple cabbage.jpg" alt="Imac">
+                    <h5 class="product_name">Purple Cabbage</h5>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Purple Cabbage</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" ></p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/managu(Africa night shade).jpg" alt="Gaming Laptop">
+                    <h5 class="product_name">Managu</h5>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Managu</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" ></p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/coriander(dhania).jpg" alt="Gaming Laptop">
+                    <h5 class="product_name">coriander</h5>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">coriander</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" ></p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/terere(amaranthus).jpg" alt="Playstation 4">
+                    <h5 class="product_name">Terere</h5>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Terere</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" ></p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/courgette.jpg" alt="Phantom Drone">
+                    <h5 class="product_name">Courgette</h5>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Courgette</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" ></p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/cucumber.webp" alt="Epson Projector">
+                    <h5 class="product_name">Cucumber</h5>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Cucumber</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" ></p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/eggplant.jpg" alt="eggplant">
+                    <h5 class="product_name"> eggplant</h5>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">eggplant</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" ></p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/peas.jpg" alt="Peas">
+                    <h5 class="product_name">Peas</h5>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Peas</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" ></p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/okra.jpg" alt="okra">
+                    <h5 class="product_name">Okra</h5>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Okra</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" ></p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/jalapeno peppers.jpg" alt="jalapeno peppers">
+                    <h5 class="product_name">Jalapeno Peppers</h5>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Jalapeno Peppers</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" ></p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/capsicum.jpg" alt="capsicum">
+                    <h5 class="product_name">Capsicum</h5>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Capsicum</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" ></p>
+                </div>
+
+                <div class="col-4 box-container">
+                    <img src="images/red capsicum.jpg" alt="Red Capsicum">
+                    <h5 class="product_name">Red Capsicum</h5>
+                    <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Red Capsicum</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+                    <p class="price_name" ></p>
+                </div>
+            </div>
+        </div>
+ 
+        
+ <div class="small-container mt-5">
+    
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/yellow capsicum.jpg" alt="yellow capsicum">
+            <h5 class="product_name">Yellow Capsicum</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Yello Capsicum</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/green chili pepper.jpg" alt="green chili pepper">
+            <h5 class="product_name">Green Chili Pepper</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Green Chili Pepper</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/chili peppers.jpg" alt="chili peppers">
+            <h5 class="product_name">chili peppers</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">chili peppers</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/tomato.jpg" alt="Tomato">
+            <h5 class="product_name">Tomato</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Tomato</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+   
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/carrots.jpg" alt="carrots">
+            <h5 class="product_name">Carrots</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Carrots</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+           
+            <p class="price_name" ></p>
+           
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/spring onions.jpg" alt="Spring Onions">
+            <h5 class="product_name">Spring Onions</h5>
+            <div class="content-details fadeIn-bottom">
+                        <h3 class="content-title">Spring Onions</h3>
+                        <h4 class="content-price"></h4>
+                        <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+                    </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/red onions.jpg" alt="red Onions">
+            <h5 class="product_name">red onions</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">red onions</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/white onions.jpg" alt="white onions">
+            <h5 class="product_name">White Onions</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">White Onions</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+    
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/yellow onion.jpg" alt="yellow onion">
+            <h5 class="product_name">yellow onion</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">yellow onions</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            
+            <p class="price_name" ></p>
+         
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/Turmeric.jpg" alt="Turmeric">
+            <h5 class="product_name">Turmeric</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Turmeric</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/ginger.jpg" alt="Ginger">
+            <h5 class="product_name">Ginger</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Ginger</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/garlic.jpg" alt="Garlic">
+            <h5 class="product_name">Garlic</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Garlic</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+    
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/tamarind.jpg" alt="tamarind">
+            <h5 class="product_name">Tamarind</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Tamarind</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+          
+            <p class="price_name" ></p>
+           
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/bay leaves.jpg" alt="Bay leaves">
+            <h5 class="product_name">Bay leaves</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Bay leaves</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/maize.jpg" alt="maize">
+            <h5 class="product_name">maize</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">maize</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/popcorn.jpg" alt="popcorn">
+            <h5 class="product_name">Popcorn</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Popcorn</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+     
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/sweetcorn.jpg" alt="sweetcorn">
+            <h5 class="product_name">sweetcorn</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">sweetcorn</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/pumpkin.jpg" alt="pumpkin">
+            <h5 class="product_name">pumpkin</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">pumpkin</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/butternut squash.jpg" alt="butternut squash">
+            <h5 class="product_name">butternut squash</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">butternut squash</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/green bananas.jpg"  alt="green bananas">
+            <h5 class="product_name">Green Bananas</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Green Bananas</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+     
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/pumpkin seeds.jpg" alt="pumpkin seeds">
+            <h5 class="product_name">Pumpkin Seeds</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Pumpkin Seeds</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+           
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/sesame seeds.jpg" alt="sesame seeds">
+            <h5 class="product_name">sesame seeds</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">sesame seeds</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/cumin seeds.jpg" alt="cumin seeds">
+            <h5 class="product_name">cumin seeds</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">cumin seeds/h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/peanuts.jpg" alt="peanuts">
+            <h5 class="product_name">Peanuts</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Peanuts</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+     
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/cashew nuts.jpg" alt="cashew nuts">
+            <h5 class="product_name">Cashew nuts</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Cashew nuts</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/macadamia.jpg" alt="macadamia">
+            <h5 class="product_name">macadamia</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">macadamia</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/sweet potatoes(orange).jpg" alt="sweet potatoes(orange)">
+            <h5 class="product_name">sweet potatoes(orange)</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">sweet potatoes(orange)</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/sweet potato.jpg" alt="sweet potato(white)">
+            <h5 class="product_name">sweet potato(white)</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">sweet potato(white)</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            
+            <p class="price_name" >Rs199.99</p>
+        </div>
+    </div>
+     
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/sweetpotatoes.jpg" alt="sweetpotatoes">
+            <h5 class="product_name">sweetpotatoes</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">sweetpotatoes</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+           
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/cassava.jpg" alt="cassava">
+            <h5 class="product_name">cassava</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">cassava</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/arrowroots(nduma).jpg" alt="arrowroots">
+            <h5 class="product_name">arrowroots</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">arrowroots</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/plantain.jpg" alt="plantain">
+            <h5 class="product_name">plantain</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">plantain</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+        
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/apples.jpg" alt="apples">
+            <h5 class="product_name">apples</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">apples</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+           
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/Avocado.jpg" alt="Avocado">
+            <h5 class="product_name">Avocado</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Avocado</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/bananas.jpg" alt="Bananas">
+            <h5 class="product_name">bananas</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">bananas</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/blackberries.jpg" alt="blackberries">
+            <h5 class="product_name">blackberries</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">blackberries</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+       
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/blueberries.jpg" alt="blueberries">
+            <h5 class="product_name">blueberries</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">blueberries</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+           
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/grapefruit.jpg" alt="grapefruit">
+            <h5 class="product_name">grapefruit</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">grapefruit</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/green apples.jpg" alt="green apples">
+            <h5 class="product_name">green apples</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">green apples</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/green grapes.jpg" alt="green grapes">
+            <h5 class="product_name">green grapes</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">green grapes</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+        
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/kiwi fruit.jpg" alt="kiwi fruit">
+            <h5 class="product_name">kiwi fruit</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Kiwi fruit</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+           
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/lemons.jpg" alt="lemons">
+            <h5 class="product_name">lemons</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">lemons</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/mangoes.jpg" alt="mangoes">
+            <h5 class="product_name">mangoes</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">mangoes/h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/passion fruit.jpg" alt="passion fruit">
+            <h5 class="product_name">passion fruit</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">passion fruit</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+       
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/pawpaw.jpg" alt="pawpaw">
+            <h5 class="product_name">pawpaw</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">pawpaw</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/peach.jpg" alt="peach">
+            <h5 class="product_name">peach</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">peach</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/pepino melon.jpg" alt="pepino melon">
+            <h5 class="product_name">pepino melon</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">pepino melon</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/pineapples.jpg" alt="pineapples">
+            <h5 class="product_name">pineapples</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">pineapples</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+       
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/plums.jpg" alt="plums">
+            <h5 class="product_name">plums</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">plums</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+           
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/pomegranate.jpg" alt="pomegranate">
+            <h5 class="product_name">pomegranate</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">pomegranate</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/pear.jpg" alt="pear">
+            <h5 class="product_name">pear</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">pear</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/raspberries.jpg" alt="raspberries">
+            <h5 class="product_name">raspberries</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">raspberries</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+        
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/redgrapes.jpg" alt="redgrapes">
+            <h5 class="product_name">redgrapes</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">redgrapes</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" >Rs1000.99</p>
+            
+            
+        </div>
+        <div class="col-4 box-container">
+            <img src="images/strawberry.jpg" alt="strawberry">
+            <h5 class="product_name">strawberry</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">strawberry</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/watermelon.jpg" alt="watermelon">
+            <h5 class="product_name">watermelon</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">watermelon</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/thorn melon.jpg" alt="thorn melon">
+            <h5 class="product_name">thorn melon</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">thorn melon</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+        
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/yellow beans.jpg" alt="yellow beans">
+            <h5 class="product_name">yellow beans</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">yellow beans</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            
+            <p class="price_name" ></p>
+            
+        </div>
+        <div class="col-4 box-container">
+            <img src="images/white beans.jpg" alt="white beans">
+            <h5 class="product_name">white beans</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">white beans</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/special ndengu.jpg" alt="special ndengu">
+            <h5 class="product_name">special ndengu</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">special ndengu</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/potatoes.jpg" alt="potatoes">
+            <h5 class="product_name">potatoes</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">potatoes</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+      
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/pigeon peas(mbaazi).jpg" alt="pigeon peas">
+            <h5 class="product_name">pigeon peas</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">pigeon peas</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+           
+            <p class="price_name" ></p> 
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/mung bean(ndengu).jpg" alt="mung bean">
+            <h5 class="product_name">mung bean</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">mung bean</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/lentils(kamande).jpg" alt="lentils">
+            <h5 class="product_name">lentils</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">lentils</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/kidney beans.jpg" alt="kidney beans">
+            <h5 class="product_name">kidney beans</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">Kidney beans</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+       
+ <div class="small-container mt-5">
+    <div class="row horizontal-scroll-wrapper squares">
+        <div class="col-4 box-container">
+            <div class="image-overlay"></div>
+            <img src="images/coconut.jpg" alt="coconut">
+            <h5 class="product_name">coconut</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">coconut</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/cherry.jpg" alt="cherry">
+            <h5 class="product_name">cherry</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">cherry</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/dates.jpg" alt="dates">
+            <h5 class="product_name">dates</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">dates</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+
+        <div class="col-4 box-container">
+            <img src="images/broad beans(noe).jpg" alt="broad beans">
+            <h5 class="product_name">broad beans</h5>
+            <div class="content-details fadeIn-bottom">
+                <h3 class="content-title">broad beans</h3>
+                <h4 class="content-price"></h4>
+                <div class="content-btn btn btn-secondary" title="Add to Cart"><i class="fa fa-cart-plus" aria-hidden="true"></i></div>
+            </div>
+            <p class="price_name" ></p>
+        </div>
+    </div>
+      
+
+        <!-- -------footer------ -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                  
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2022 Abigail Kamau</p>
+            </div>
+        </div>
+        <script src="main.js"></script>
+          
+    </body>
+
+</html>
